@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Roboto Thin';
+    src: url('../assets/fonts/Roboto-Thin.eot');
+    src: url('../assets/fonts/Roboto-Thin.eot?#iefix') format('embedded-opentype'),
+    url('../assets/fonts/Roboto-Thin.woff') format('woff'),
+    url('../assets/fonts/Roboto-Thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Roboto Light';
+    src: url('../assets/fonts/Roboto-Light.eot');
+    src: url('../assets/fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+    url('../assets/fonts/Roboto-Light.woff') format('woff'),
+    url('../assets/fonts/Roboto-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url('../assets/fonts/Roboto-Regular.eot (1)');
+    src: url('../assets/fonts/Roboto-Regular (1).eot?#iefix') format('embedded-opentype'),
+    url('../assets/fonts/Roboto-Regular.woff (1)') format('woff'),
+    url('../assets/fonts/Roboto-Regular.ttf (1)') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Roboto Medium';
+    src: url('../assets/fonts/Roboto-Medium.eot (1)');
+    src: url('../assets/fonts/Roboto-Medium (1).eot?#iefix') format('embedded-opentype'),
+    url('../assets/fonts/Roboto-Medium (1).woff') format('woff'),
+    url('../assets/fonts/Roboto-Medium (1).ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url('../assets/fonts/Roboto-Bold (1).eot');
+    src: url('../assets/fonts/Roboto-Bold (1).eot?#iefix') format('embedded-opentype'),
+    url('../assets/fonts/Roboto-Bold (1).woff') format('woff'),
+    url('../assets/fonts/Roboto-Bold (1).ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+
+$rb-thin: 'Roboto Thin', sans-serif;
+$rb-light: 'Roboto Light', sans-serif;
+$rb-regular: 'Roboto Regular', sans-serif;
+$rb-medium: 'Roboto Medium', sans-serif;
+$rb-bold: 'Roboto Bold', sans-serif;
+
+$l-tt: 18px;
+$xl-tt: 16px;
+$m-tt: 14px;
+$xm-txt: 13px;
+$xxm-txt: 12px;
+$s-txt: 11px;
+$xs-txt: 10px;
+$xxs-txt: 9px;
+
+$card-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.11);
+$menu-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.07);
+
+$white-grey-txt: #686868;
+$dark-grey-txt: #414141;
+$blue: #245462;
+$white-blue: #D7E8ED;
+$bg-grey: #F4F4F4;
+$black: #000;
+$red: #D74444;
+$bg-line: #F3F3F3;
+$grey-txt: #CCC;
+$basket-grey: #9E9E9E;
