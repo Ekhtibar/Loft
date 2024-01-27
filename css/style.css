@@ -97,6 +97,11 @@ h1, h2, h3, h4, h5, h6 {
 .navabar__item {
   font-family: "Roboto Regular", sans-serif;
   font-size: 14px;
+  transition: 0.2s ease-in-out;
+}
+
+.navabar__item:hover {
+  color: #245462;
 }
 
 .top-header__right-side {
@@ -333,6 +338,7 @@ address {
   align-items: center;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.07);
   gap: 15px;
+  position: relative;
 }
 
 .app-bar__item {
@@ -341,12 +347,21 @@ address {
   padding: 15px 10px;
 }
 
+.app-bar__item:hover .app-bar__item__img-box {
+  scale: 1.2;
+}
+
+.app-bar__item__img-box {
+  transition: 0.2s ease;
+}
+
 .app-bar__item__img__txt {
   font-family: "Roboto Regular", sans-serif;
   font-size: 16px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  color: #414141;
 }
 
 .ect {
@@ -355,6 +370,8 @@ address {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+  padding: 0px 10px;
 }
 
 .app-bar__sells,
@@ -364,6 +381,28 @@ address {
 
 ::-webkit-scrollbar {
   display: none;
+}
+
+.ect-list {
+  display: none;
+  flex-direction: column !important;
+  padding: 10px 0px;
+  background: #fff;
+  color: #000;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.07);
+  position: absolute;
+  top: 57px;
+  right: 0px;
+}
+
+.ect-list__item {
+  padding: 12px 20px;
+  font-family: "Roboto Regular", sans-serif;
+  font-size: 14px;
+}
+
+.ect-list__item:hover {
+  background: rgba(233, 233, 233, 0.5019607843);
 }
 
 @media (max-width: 960px) {
@@ -401,7 +440,7 @@ address {
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.07);
   }
   .app-bar__item__img__txt {
-    font-size: 9px;
+    font-size: 11px;
   }
   .app-bar__sells,
   .app-bar__news {

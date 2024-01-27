@@ -17,6 +17,10 @@
 .navabar__item{
     font-family: $rb-regular;
     font-size: $m-tt;
+    transition: .2s ease-in-out;
+}
+.navabar__item:hover{
+    color: $blue;
 }
 .top-header__right-side{
     display: flex;

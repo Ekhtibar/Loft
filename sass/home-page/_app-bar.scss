@@ -7,11 +7,18 @@
     align-items: center;
     box-shadow: $menu-shadow;
     gap: 15px;
+    position: relative;
 }
 .app-bar__item{
     display: flex;
     gap: 10px;
     padding: 15px 10px;
+}
+.app-bar__item:hover .app-bar__item__img-box{
+    scale: 1.2;
+}
+.app-bar__item__img-box{
+    transition: .2s ease;
 }
 .app-bar__item__img__txt{
     font-family: $rb-regular;
@@ -19,6 +26,7 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    color: $dark-grey-txt;
 }
 .ect{
     border: none;
@@ -26,6 +34,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    padding: 0px 10px
 }
 .app-bar__sells,
 .app-bar__news{
@@ -33,6 +43,25 @@
 }
 ::-webkit-scrollbar {
     display: none;
+}
+.ect-list{
+    display: none;
+    flex-direction: column !important;
+    padding: 10px 0px;
+    background: $white;
+    color: $black;
+    box-shadow: $menu-shadow;
+    position: absolute;
+    top: 57px;
+    right: 0px;
+}
+.ect-list__item{
+    padding: 12px 20px;
+    font-family: $rb-regular;
+    font-size: $m-tt;
+}
+.ect-list__item:hover{
+    background: #e9e9e980;
 }
 @media (max-width: 960px){
     .childrensroom{
@@ -69,7 +98,7 @@
         box-shadow: $menu-shadow;
     }
     .app-bar__item__img__txt{
-        font-size: $xxs-txt;
+        font-size: $s-txt;
     }
     .app-bar__sells,
     .app-bar__news{
