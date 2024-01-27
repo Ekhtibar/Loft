@@ -31,6 +31,9 @@
 .app-bar__news{
     display: none;
 }
+::-webkit-scrollbar {
+    display: none;
+}
 @media (max-width: 960px){
     .childrensroom{
         display: none;
