@@ -8,15 +8,127 @@
 </head>
 <body>
     <div class="wrapper">
-        <header class="header">header</header>
+        <div class="top-header">
+            <div class="container top-header__container">
+                <nav class="navbar">
+                    <a href="#home" class="navabar__item">Главная</a>
+                    <a href="#home" class="navabar__item">О нас</a>
+                    <a href="#home" class="navabar__item">Контакты</a>
+                </nav>
+                <div class="top-header__right-side">
+                    <a href="tel:+89648999119" class="top-header__right-side__phone">
+                        <img src="assets/icons/white-phone-icon.svg" alt="" class="phone-icon">
+                        +8 (964) 89 99 119
+                    </a>
+                    <a href="#" class="top-header__right-side__delivery">
+                        <img src="assets/icons/white-delivery-icon.svg" alt="" class="delivery-icon">
+                        Доставка
+                    </a>
+                </div>
+            </div>
+        </div>
+        <header class="header">
+            <div class="container header__container">
+                <a href="#" class="logo">
+                    <img src="assets/icons/LOGO.svg" alt="" class="logo">
+                </a>
+                <form role="search" method="get" action="/search" class="search-form">
+                    <button class="search-button">
+                        <img src="assets/icons/search-icon.svg" alt="search-icon">
+                    </button>
+                    <input type="search" name="search-text" placeholder="Поиск" class="search-input"/>
+                </form>
+                <div class="user-bar">
+                    <a href="#wishlist" class="wishlist">
+                        <img src="assets/icons/wishlist-icon.svg" alt="" class="user-bar__wishlist-icon">
+                    </a>
+                    <a href="#cart" class="cart">
+                        <img src="assets/icons/bag.svg" alt="" class="user-bar__cart-icon">
+                    </a>
+                    <a href="#user-profil" class="user-profil">
+                        <img src="assets/icons/profile-icon.svg" alt="" class="user-bar__profil-icon">
+                    </a>
+                </div>
+            </div>
+        </header>
         <div class="content">
             <section class="app-bar">
-                <div class="container">
+                <div class="container app-bar__container">
 
                 </div>
             </section>
         </div>
-        <footer class="footer">footer</footer>
+        <footer class="footer">
+            <div class="container footer__container">
+                <div class="footer__left-side">
+                    <div class="footer__nav-tt">Наигация</div>
+                    <nav class="footer-navbar">
+                        <ul class="footer-navabr__list">
+                            <li class="footer-navbar__item">
+                                <a href="#" class="footer-navabr__item__link">Кухни</a>
+                            </li>
+                            <li class="footer-navbar__item">
+                                <a href="#" class="footer-navabr__item__link">Спальни</a>
+                            </li>
+                            <li class="footer-navbar__item">
+                                <a href="#" class="footer-navabr__item__link">Гостинные</a>
+                            </li>
+                        </ul>
+                        <ul class="footer-navabr__list">
+                            <li class="footer-navbar__item">
+                                <a href="#" class="footer-navabr__item__link">Прихожие</a>
+                            </li>
+                            <li class="footer-navbar__item">
+                                <a href="#" class="footer-navabr__item__link">Офисная мебель</a>
+                            </li>
+                            <li class="footer-navbar__item">
+                                <a href="#" class="footer-navabr__item__link">Дестская</a>
+                            </li>
+                        </ul>
+                        <ul class="footer-navabr__list">
+                            <li class="footer-navbar__item">
+                                <a href="#" class="footer-navabr__item__link">Шкафы</a>
+                            </li>
+                            <li class="footer-navbar__item">
+                                <a href="#" class="footer-navabr__item__link">Матрасы</a>
+                            </li>
+                            <li class="footer-navbar__item">
+                                <a href="#" class="footer-navabr__item__link">Мягкая мебель</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="sells-and-news">
+                        <a href="#" class="sells">Акции</a>
+                        <a href="#" class="news">Новинки</a>
+                    </div>
+                </div>
+                <div class="footer__right-side">
+                    <a href="#">
+                        <img src="assets/icons/footer-logo.svg" alt="" class="footer__logo">
+                    </a>
+                    <address>
+                        <p>
+                            г. Анапа, Анапское шоссе,
+                            30 Ж/К Черное море
+                        </p>
+                    </address>
+                    <div class="footer__contacts">
+                        <a href="tel:+89648999119" class="footer__contacts__phone">
+                            <img src="assets/icons/phone-icon.svg" alt="" class="footer__phone">
+                            +8 (964) 89 99 119
+                        </a>
+                        <a href="tel:+89648999119" class="footer__contacts__instagram">
+                            <img src="assets/icons/instagram.svg" alt="" class="footer__instagram">
+                            INSTAGRAM
+                        </a>
+                        <a href="mailto:mebel_loft_anapa@mail.ru" class="footer__contacts__mail">
+                            <img src="assets/icons/mail.svg" alt="" class="footer__mail">
+                            mebel_loft_anapa@mail.ru
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
 
 

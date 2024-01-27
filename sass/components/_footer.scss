@@ -1,0 +1,64 @@
+.footer{
+    padding: 55px 25px 35px 25px;
+}
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__nav-tt{
+    font-family: $rb-medium;
+    font-weight: $m-tt;
+    margin-bottom: 10px;
+}
+.footer-navbar{
+    display: flex;
+    gap: 50px;
+}
+.footer-navabr__list{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.footer-navabr__item__link{
+    font-family: $rb-regular;
+    font-weight: 14px;
+}
+.sells-and-news{
+    margin-top: 35px;
+    display: flex;
+    gap: 30px;
+}
+.sells{
+    font-family: $rb-regular;
+    font-size: 14px;
+    color: $red;
+}
+.news{
+    font-family: $rb-regular;
+    font-size: 14px;
+}
+.footer__right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+}
+address{
+    text-align: right;
+    max-width: 200px;
+}
+.footer__contacts {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.footer__contacts__phone,
+.footer__contacts__instagram,
+.footer__contacts__mail{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: $rb-regular;
+}
