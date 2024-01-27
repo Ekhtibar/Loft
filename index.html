@@ -29,9 +29,14 @@
         </div>
         <header class="header">
             <div class="container header__container">
-                <a href="#" class="logo">
-                    <img src="assets/icons/LOGO.svg" alt="" class="logo">
-                </a>
+                <div style="display: flex; gap: 25px">
+                    <button class="menu-btn">
+                        <img src="assets/icons/menu-icon.svg" alt="" class="menu-btn">
+                    </button>
+                    <a href="#" class="logo">
+                        <img src="assets/icons/LOGO.svg" alt="" class="logo">
+                    </a>
+                </div>
                 <form role="search" method="get" action="/search" class="search-form">
                     <button class="search-button">
                         <img src="assets/icons/search-icon.svg" alt="search-icon">
@@ -39,6 +44,14 @@
                     <input type="search" name="search-text" placeholder="Поиск" class="search-input"/>
                 </form>
                 <div class="user-bar">
+                    <a href="tel:+89648999119" class="footer__contacts__phone tablet-delivery">
+                        <img src="assets/icons/delivery-icon.svg" alt="" class="footer__phone">
+                        Доставка
+                    </a>
+                    <a href="tel:+89648999119" class="footer__contacts__phone tablet-phone">
+                        <img src="assets/icons/phone-icon.svg" alt="" class="footer__phone">
+                        +8 (964) 89 99 119
+                    </a>
                     <a href="#wishlist" class="wishlist">
                         <img src="assets/icons/wishlist-icon.svg" alt="" class="user-bar__wishlist-icon">
                     </a>
@@ -49,6 +62,14 @@
                         <img src="assets/icons/profile-icon.svg" alt="" class="user-bar__profil-icon">
                     </a>
                 </div>
+            </div>
+            <div class="container">
+                <form role="search" method="get" action="/search" class="search-form tablet-search-form">
+                    <button class="search-button">
+                        <img src="assets/icons/search-icon.svg" alt="search-icon">
+                    </button>
+                    <input type="search" name="search-text" placeholder="Поиск" class="search-input"/>
+                </form>
             </div>
         </header>
         <div class="content">

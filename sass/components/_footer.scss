@@ -61,4 +61,31 @@ address{
     align-items: center;
     gap: 10px;
     font-family: $rb-regular;
+    text-wrap: nowrap;
+}
+.tablet-phone,
+.tablet-delivery{
+    display: none;
+    font-size: $xxm-txt;
+}
+footer{
+    display: none;
+}
+@media (max-width: 960px){
+    .tablet-phone{
+        display: flex;
+    }
+}
+@media (max-width: 768px){
+    .tablet-phone{
+        display: none;
+    }
+    .tablet-delivery{
+        display: flex;
+    }
+}
+@media (max-width: 648px){
+    .tablet-delivery{
+        display: none;
+    }
 }
