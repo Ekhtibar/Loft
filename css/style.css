@@ -393,6 +393,9 @@ address {
     overflow: hidden;
     overflow-x: scroll;
   }
+  .app-bar__container::-webkit-scrollbar {
+    display: none;
+  }
   .app-bar__item__img-box {
     padding: 25px;
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.07);

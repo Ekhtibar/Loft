@@ -61,6 +61,9 @@
         overflow: hidden;
         overflow-x: scroll;
     }
+    .app-bar__container::-webkit-scrollbar {
+        display: none;
+    }
     .app-bar__item__img-box{
         padding: 25px;
         box-shadow: $menu-shadow;
