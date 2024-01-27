@@ -258,6 +258,7 @@ h1, h2, h3, h4, h5, h6 {
 address {
   text-align: right;
   max-width: 200px;
+  font-size: 14px;
 }
 
 .footer__contacts {
@@ -276,16 +277,13 @@ address {
   gap: 10px;
   font-family: "Roboto Regular", sans-serif;
   text-wrap: nowrap;
+  font-size: 14px;
 }
 
 .tablet-phone,
 .tablet-delivery {
   display: none;
   font-size: 12px;
-}
-
-footer {
-  display: none;
 }
 
 @media (max-width: 960px) {
@@ -304,5 +302,24 @@ footer {
 @media (max-width: 648px) {
   .tablet-delivery {
     display: none;
+  }
+  .footer {
+    padding: 55px 0px 35px 0px;
+  }
+  .footer__left-side {
+    display: none;
+  }
+  .footer__contacts {
+    margin-top: 30px;
+  }
+  .footer__right-side {
+    align-items: start;
+  }
+  address {
+    text-align: left;
+    margin-top: 15px;
+  }
+  .footer__contacts {
+    justify-content: start;
   }
 }/*# sourceMappingURL=style.css.map */

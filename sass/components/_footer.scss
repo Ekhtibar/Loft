@@ -46,6 +46,7 @@
 address{
     text-align: right;
     max-width: 200px;
+    font-size: $m-tt;
 }
 .footer__contacts {
     display: flex;
@@ -62,14 +63,12 @@ address{
     gap: 10px;
     font-family: $rb-regular;
     text-wrap: nowrap;
+    font-size: $m-tt;
 }
 .tablet-phone,
 .tablet-delivery{
     display: none;
     font-size: $xxm-txt;
-}
-footer{
-    display: none;
 }
 @media (max-width: 960px){
     .tablet-phone{
@@ -87,5 +86,24 @@ footer{
 @media (max-width: 648px){
     .tablet-delivery{
         display: none;
+    }
+    .footer {
+        padding: 55px 0px 35px 0px;
+    }
+    .footer__left-side{
+        display: none;
+    }
+    .footer__contacts{
+        margin-top: 30px;
+    }
+    .footer__right-side{
+        align-items: start;
+    }
+    address{
+        text-align: left;
+        margin-top: 15px;
+    }
+    .footer__contacts {
+        justify-content: start;
     }
 }
