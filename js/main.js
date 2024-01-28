@@ -12,3 +12,18 @@ $(document).ready(function() {
         }
     });
 });
+
+$(window).on('load', function() {
+    // Полная загрузка страницы, инициализация Slick Slider
+    $('.slider-wrap').slick({
+        dots: false,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        prevArrow: $('.prev-banner'),
+        nextArrow: $('.next-banner')
+    });
+
+    // После инициализации слайдера, делаем его видимым
+    $('.slider-wrap').css('visibility', 'visible');
+});
