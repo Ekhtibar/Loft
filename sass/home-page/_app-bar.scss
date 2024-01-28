@@ -89,6 +89,7 @@
         box-shadow: none;
         overflow: hidden;
         overflow-x: scroll;
+        align-items: start;
     }
     .app-bar__container::-webkit-scrollbar {
         display: none;
@@ -99,6 +100,8 @@
     }
     .app-bar__item__img__txt{
         font-size: $s-txt;
+        white-space: wrap;
+        text-align: center;
     }
     .app-bar__sells,
     .app-bar__news{
