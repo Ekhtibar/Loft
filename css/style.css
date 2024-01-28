@@ -523,7 +523,7 @@ address {
     display: none;
   }
   .app-bar__item__img-box {
-    padding: 25px;
+    padding: 15px;
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.07);
   }
   .app-bar__item__img__txt {
