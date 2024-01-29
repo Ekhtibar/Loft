@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="11"
+   height="14"
+   viewBox="0 0 11 14"
+   version="1.1"
+   id="svg3"
+   sodipodi:docname="about-icon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs7" />
+  <sodipodi:namedview
+     id="namedview5"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <path class='about'
+     id="Vector"
+     d="M5 1.01V1.51H6V1.01H5ZM6 1V0.5H5V1H6ZM6 13.01L6 3.51H5L5 13.01H6ZM6 1.01V1H5V1.01H6ZM2 4.51H5.5V3.51H2V4.51ZM0 13.51H11V12.51H0V13.51Z"
+     fill="currentColor" />
+</svg>
