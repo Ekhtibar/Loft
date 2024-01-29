@@ -620,6 +620,7 @@ address {
 }
 .tablet-menu__container {
   min-width: 230px;
+  height: 100%;
   position: absolute;
   top: 0;
   background: #fff;
