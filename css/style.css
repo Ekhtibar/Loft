@@ -626,6 +626,12 @@ address {
   background: #F9F9F9;
   z-index: 3;
   padding: 25px 0px 15px 0px;
+  transform: translateX(-290px);
+  transition: 0.2s ease-in-out;
+}
+
+.tablet-menu__opened-container {
+  transform: translateX(0px);
 }
 
 .tablet-menu__container__head {
@@ -636,9 +642,26 @@ address {
   padding: 0px 20px 0px 20px;
 }
 
+.tablet-menu__container__head-title,
+.tablet-menu__category-title {
+  font-family: "Roboto Medium", sans-serif;
+  font-size: 13px;
+  color: #414141;
+}
+
+.tablet-menu__circle {
+  cursor: pointer;
+}
+
 .tablet-menu__links {
   display: flex;
   flex-direction: column;
+}
+
+.tablet-menu__items-icon {
+  display: flex;
+  align-items: center;
+  justify-content: start;
 }
 
 .tablet-menu__item {

@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $(".ect").click(function(e) {
-        e.stopPropagation(); // Предотвращаем всплытие события, чтобы не срабатывало на document click
+        e.stopPropagation(); 
         $(".ect-list").css("display", function(i, value) {
             return value === "flex" ? "none" : "flex";
         });
@@ -14,7 +14,6 @@ $(document).ready(function() {
 });
 
 $(window).on('load', function() {
-    // Полная загрузка страницы, инициализация Slick Slider
     $('.slider-wrap').slick({
         dots: false,
         infinite: true,
@@ -24,6 +23,23 @@ $(window).on('load', function() {
         nextArrow: $('.next-banner')
     });
 
-    // После инициализации слайдера, делаем его видимым
     $('.slider-wrap').css('visibility', 'visible');
 });
+
+$(document).ready(function() {
+    $('.menu-btn').click(function(e) {
+        e.stopPropagation(); 
+        $('.tablet-menu__container').toggleClass('tablet-menu__opened-container');
+    });
+
+    $('.tablet-menu__circle').click(function(e) {
+        e.stopPropagation();
+        $('.tablet-menu__container').removeClass('tablet-menu__opened-container');
+    });
+
+    $(document).click(function() {
+        $('.tablet-menu__container').removeClass('tablet-menu__opened-container');
+    });
+});
+
+
