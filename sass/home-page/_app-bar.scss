@@ -35,7 +35,7 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    padding: 0px 10px
+    padding: 0px 10px;
 }
 .app-bar__sells,
 .app-bar__news{
@@ -54,6 +54,7 @@
     position: absolute;
     top: 57px;
     right: 0px;
+    z-index: 5;
 }
 .ect-list__item{
     padding: 12px 20px;
