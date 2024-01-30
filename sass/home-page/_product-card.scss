@@ -130,6 +130,11 @@
         width: calc(25% - 15px);
     }
 }
+@media (max-width: 1024px) {
+    .product-card:hover .product-info__hidden{
+        display: none;
+    }
+}
 @media (max-width: 960px){
     .product-title,
     .product-price{
