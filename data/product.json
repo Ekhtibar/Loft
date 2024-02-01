@@ -1,0 +1,209 @@
+[
+    {
+        "id": 1,
+        "name": "Шерона Barhat Grey",
+        "category": "Двухспальные кровати",
+        "price": "21 990₽",
+        "image": "assets/images/image1.png",
+        "sizes": {
+            "width": "30 СМ",
+            "depth": "21 СМ",
+            "height": "23 СМ"
+        }
+    },
+
+    {
+        "id": 2,
+        "name": "Авиньон-1",
+        "category": "Буфеты",
+        "price": "18 990₽",
+        "image": "assets/images/image 2.png",
+        "sizes": {
+            "width": "34 СМ",
+            "depth": "49 СМ",
+            "height": "57 СМ"
+        }
+    },
+
+    {
+        "id": 3,
+        "name": "Стелла Дуб Сонома",
+        "category": "Комоды",
+        "price": "8 990₽",
+        "image": "assets/images/image 3.png",
+        "sizes": {
+            "width": "34 СМ",
+            "depth": "49 СМ",
+            "height": "57 СМ"
+        }
+    },
+
+    {
+        "id": 4,
+        "name": "Равенна-1 Light",
+        "category": "Шкафы",
+        "price": "18 990₽",
+        "image": "assets/images/image 4.png",
+        "sizes": {
+            "width": "34 СМ",
+            "depth": "49 СМ",
+            "height": "57 СМ"
+        }
+    },
+
+    {
+        "id": 5,
+        "name": "Валенсия Beige",
+        "category": "Буфеты",
+        "price": "19 990₽",
+        "image": "assets/images/image 5.png",
+        "sizes": {
+            "width": "34 СМ",
+            "depth": "49 СМ",
+            "height": "57 СМ"
+        }
+    }, 
+
+    {
+        "id": 6,
+        "name": "Бенфлит Grey",
+        "category": "Журнальные столы",
+        "price": "7 290₽",
+        "image": "assets/images/image 6.png",
+        "sizes": {
+            "width": "34 СМ",
+            "depth": "49 СМ",
+            "height": "57 СМ"
+        }
+    }, 
+
+    {
+        "id": 7,
+        "name": "Тиффани Вудлайн Крем",
+        "category": "Письменные столы",
+        "price": "10 990₽",
+        "image": "assets/images/image 7.png",
+        "sizes": {
+            "width": "34 СМ",
+            "depth": "49 СМ",
+            "height": "57 СМ"
+        }
+    }, 
+
+    {
+        "id": 8,
+        "name": "Сан-Паулу Velvet Brown",
+        "category": "Барные стулья",
+        "price": "25 990₽",
+        "image": "assets/images/image 8.png",
+        "sizes": {
+            "width": "34 СМ",
+            "depth": "49 СМ",
+            "height": "57 СМ"
+        }
+    },
+
+    {
+        "id": 9,
+        "name": "Лайт-3-170-240 Белый",
+        "category": "Шкафы",
+        "price": "27 290₽",
+        "image": "assets/images/image 9.png",
+        "sizes": {
+            "width": "34 СМ",
+            "depth": "49 СМ",
+            "height": "57 СМ"
+        }
+    }, 
+
+    {
+        "id": 10,
+        "name": "Вилли Pink",
+        "category": "Детский диван",
+        "price": "21 990₽",
+        "image": "assets/images/image 10.png",
+        "sizes": {
+            "width": "34 СМ",
+            "depth": "49 СМ",
+            "height": "57 СМ"
+        }
+    }, 
+
+    {
+        "id": 11,
+        "name": "Валенсия Beige",
+        "category": "Барные стулья",
+        "price": "10 990₽",
+        "image": "assets/images/image 11.png",
+        "sizes": {
+            "width": "34 СМ",
+            "depth": "49 СМ",
+            "height": "57 СМ"
+        }
+    },
+
+    {
+        "id": 12,
+        "name": "Валенсия Beige",
+        "category": "Барные стулья",
+        "price": "19 990₽",
+        "image": "assets/images/image 12.png",
+        "sizes": {
+            "width": "34 СМ",
+            "depth": "49 СМ",
+            "height": "57 СМ"
+        }
+    },
+
+    {
+        "id": 13,
+        "name": "Динс Velvet Yellow",
+        "category": "Диваны",
+        "price": "28 490₽",
+        "image": "assets/images/image 13.png",
+        "sizes": {
+            "width": "34 СМ",
+            "depth": "49 СМ",
+            "height": "57 СМ"
+        }
+    },
+
+    {
+        "id": 14,
+        "name": "Динс Velvet Yellow",
+        "category": "Диваны",
+        "price": "28 490₽",
+        "image": "assets/images/image 14.png",
+        "sizes": {
+            "width": "34 СМ",
+            "depth": "49 СМ",
+            "height": "57 СМ"
+        }
+    },
+
+    {
+        "id": 15,
+        "name": "Динс Velvet Yellow",
+        "category": "Диваны",
+        "price": "28 490₽",
+        "image": "assets/images/image 15.png",
+        "sizes": {
+            "width": "34 СМ",
+            "depth": "49 СМ",
+            "height": "57 СМ"
+        }
+    },
+
+    {
+        "id": 16,
+        "name": "Валенсия Beige",
+        "category": "Барные стулья",
+        "price": "2 300₽",
+        "image": "assets/images/image 16.png",
+        "sizes": {
+            "width": "34 СМ",
+            "depth": "49 СМ",
+            "height": "57 СМ"
+        }
+    }
+]

@@ -1,13 +1,9 @@
 .products{
     margin-top: 30px;
 }
-.products__title{
-    font-family: $rb-regular;
-    font-size: $xl-tt;
-    margin-bottom: 35px;
-}
 .products__container {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     gap: 15px;
     align-items: stretch;
@@ -53,7 +49,7 @@
     font-family: $rb-medium;
     font-size: $xl-tt;
     margin-bottom: 5px;
-
+    margin-top: 35px;
 }
 .product-category{
     font-family: $rb-regular;
@@ -158,5 +154,8 @@
     .product-title,
     .product-price{
         font-size: $xm-txt;
+    }
+    .product-title{
+    margin-top: 5px;
     }
 }

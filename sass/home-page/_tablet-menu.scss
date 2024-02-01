@@ -1,11 +1,11 @@
 .tablet-menu__container{
     min-width: 230px;
     height: 100%;
-    position: absolute;
+    position: fixed;
     top: 0;
     background: $white;
     background: #F9F9F9;
-    z-index: 3;
+    z-index: 991;
     padding: 25px 0px 15px 0px;
     transform: translateX(-290px);
     transition: .2s ease-in-out;

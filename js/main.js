@@ -46,21 +46,108 @@ $(window).on('load', function() {
 
 
 
-//MENU-BTN
+// MENU-BTN
 $(document).ready(function() {
     $('.menu-btn').click(function(e) {
         e.stopPropagation(); 
         $('.tablet-menu__container').toggleClass('tablet-menu__opened-container');
+
+        // Предотвращение прокрутки body при открытом меню
+        if ($('.tablet-menu__container').hasClass('tablet-menu__opened-container')) {
+            $('body').css('overflow', 'hidden');
+        } else {
+            $('body').css('overflow', 'auto');
+        }
     });
 
     $('.tablet-menu__circle').click(function(e) {
         e.stopPropagation();
         $('.tablet-menu__container').removeClass('tablet-menu__opened-container');
+        $('body').css('overflow', 'auto'); // Восстановление прокрутки при закрытии меню
     });
 
     $(document).click(function() {
         $('.tablet-menu__container').removeClass('tablet-menu__opened-container');
+        $('body').css('overflow', 'auto'); // Восстановление прокрутки при закрытии меню
     });
 });
 
 
+
+
+
+
+// main.js
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Получение JSON-данных
+    fetch('data/product.json')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`Network response was not ok: ${response.status}`);
+            }
+            return response.json();
+        })
+        .then(data => {
+            // Обработка данных и отображение продуктов
+            displayProductCards(data);
+        })
+        .catch(error => {
+            console.error('Error fetching JSON:', error);
+        });
+
+    function displayProductCards(products) {
+        const productsContainer = document.querySelector('.products__container');
+
+        // Очистка контейнера перед добавлением новых продуктов
+        productsContainer.innerHTML = '';
+
+        // Создание карточек продуктов на основе данных из JSON
+        products.forEach(product => {
+            const productCard = document.createElement('div');
+            productCard.classList.add('product-card');
+
+            // Добавление содержимого карточки (вам нужно адаптировать это под ваши данные)
+            productCard.innerHTML = `
+                <div class="product-card__head">
+                    <!-- ... -->
+                </div>
+                <a href="#" class="product-link">
+                    <img src="${product.image}" alt="" class="product-card__img">
+                </a>
+                <div class="product-info">
+                    <a href="#" class="product-link">
+                        <h5 class="product-title">${product.name}</h5>
+                        <p class="product-category">${product.category}</p>
+                        <p class="product-price">${product.price}</p>
+                    </a>
+                    <div class="product-info__hidden">
+                                    <p class="product-sizes">Размеры</p>
+                                    <div class="product-sizes__box">
+                                        <div class="product-sizes__box__col">
+                                            <p class="product-sizes__box__col-txt">Ширина</p>
+                                            <p class="product-sizes__box__col-value">${product.sizes.width}</p>
+                                        </div>
+                                        <div class="product-sizes__box__col-x">x</div>
+                                        <div class="product-sizes__box__col">
+                                            <p class="product-sizes__box__col-txt">Глубина</p>
+                                            <p class="product-sizes__box__col-value">${product.sizes.depth}</p>
+                                        </div>
+                                        <div class="product-sizes__box__col-x">x</div>
+                                        <div class="product-sizes__box__col">
+                                            <p class="product-sizes__box__col-txt">Высота</p>
+                                            <p class="product-sizes__box__col-value">${product.sizes.height}</p>
+                                        </div>
+                                    </div>
+                                    <button class="add-to-cart">Добавить в корзину</button>
+                                </div>
+                </div>
+            `;
+
+            // Добавление карточки продукта в контейнер
+            productsContainer.appendChild(productCard);
+        });
+    }
+
+    // Другие части вашего скрипта...
+});
