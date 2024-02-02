@@ -45,8 +45,7 @@ $(window).on('load', function() {
 });
 
 
-
-// MENU-BTN
+// MENU BTN
 $(document).ready(function() {
     $('.menu-btn').click(function(e) {
         e.stopPropagation(); 
@@ -66,9 +65,12 @@ $(document).ready(function() {
         $('body').css('overflow', 'auto'); // Восстановление прокрутки при закрытии меню
     });
 
-    $(document).click(function() {
-        $('.tablet-menu__container').removeClass('tablet-menu__opened-container');
-        $('body').css('overflow', 'auto'); // Восстановление прокрутки при закрытии меню
+    $(document).click(function(e) {
+        if (!$(e.target).closest('.tablet-menu__opened-container').length) {
+            // Закрыть меню, если клик был вне .tablet-menu__opened-container
+            $('.tablet-menu__container').removeClass('tablet-menu__opened-container');
+            $('body').css('overflow', 'auto'); // Восстановление прокрутки при закрытии меню
+        }
     });
 });
 
@@ -76,8 +78,7 @@ $(document).ready(function() {
 
 
 
-
-// main.js
+// json data
 
 document.addEventListener('DOMContentLoaded', function() {
     // Получение JSON-данных
@@ -143,11 +144,9 @@ document.addEventListener('DOMContentLoaded', function() {
                                 </div>
                 </div>
             `;
-
             // Добавление карточки продукта в контейнер
             productsContainer.appendChild(productCard);
         });
     }
 
-    // Другие части вашего скрипта...
 });
