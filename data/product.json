@@ -5,6 +5,8 @@
         "category": "Двухспальные кровати",
         "price": "21 990₽",
         "image": "assets/images/image1.png",
+        "sell_icon": "assets/icons/sell-icon.svg",
+        "sell_txt": "-25%",
         "sizes": {
             "width": "30 СМ",
             "depth": "21 СМ",
@@ -18,6 +20,8 @@
         "category": "Буфеты",
         "price": "18 990₽",
         "image": "assets/images/image 2.png",
+        "sell_icon": "",
+        "sell_txt": "",
         "sizes": {
             "width": "34 СМ",
             "depth": "49 СМ",
@@ -31,6 +35,8 @@
         "category": "Комоды",
         "price": "8 990₽",
         "image": "assets/images/image 3.png",
+        "sell_icon": "assets/icons/sell-icon.svg",
+        "sell_txt": "-25%",
         "sizes": {
             "width": "34 СМ",
             "depth": "49 СМ",
@@ -44,6 +50,8 @@
         "category": "Шкафы",
         "price": "18 990₽",
         "image": "assets/images/image 4.png",
+        "sell_icon": "",
+        "sell_txt": "",
         "sizes": {
             "width": "34 СМ",
             "depth": "49 СМ",
@@ -57,6 +65,8 @@
         "category": "Буфеты",
         "price": "19 990₽",
         "image": "assets/images/image 5.png",
+        "sell_icon": "",
+        "sell_txt": "",
         "sizes": {
             "width": "34 СМ",
             "depth": "49 СМ",
@@ -70,6 +80,8 @@
         "category": "Журнальные столы",
         "price": "7 290₽",
         "image": "assets/images/image 6.png",
+        "sell_icon": "assets/icons/sell-icon.svg",
+        "sell_txt": "-25%",
         "sizes": {
             "width": "34 СМ",
             "depth": "49 СМ",
@@ -83,6 +95,8 @@
         "category": "Письменные столы",
         "price": "10 990₽",
         "image": "assets/images/image 7.png",
+        "sell_icon": "",
+        "sell_txt": "",
         "sizes": {
             "width": "34 СМ",
             "depth": "49 СМ",
@@ -96,6 +110,8 @@
         "category": "Барные стулья",
         "price": "25 990₽",
         "image": "assets/images/image 8.png",
+        "sell_icon": "",
+        "sell_txt": "",
         "sizes": {
             "width": "34 СМ",
             "depth": "49 СМ",
@@ -109,6 +125,8 @@
         "category": "Шкафы",
         "price": "27 290₽",
         "image": "assets/images/image 9.png",
+        "sell_icon": "assets/icons/sell-icon.svg",
+        "sell_txt": "-25%",
         "sizes": {
             "width": "34 СМ",
             "depth": "49 СМ",
@@ -122,6 +140,8 @@
         "category": "Детский диван",
         "price": "21 990₽",
         "image": "assets/images/image 10.png",
+        "sell_icon": "assets/icons/sell-icon.svg",
+        "sell_txt": "-25%",
         "sizes": {
             "width": "34 СМ",
             "depth": "49 СМ",
@@ -135,6 +155,8 @@
         "category": "Барные стулья",
         "price": "10 990₽",
         "image": "assets/images/image 11.png",
+        "sell_icon": "assets/icons/sell-icon.svg",
+        "sell_txt": "-25%",
         "sizes": {
             "width": "34 СМ",
             "depth": "49 СМ",
@@ -148,6 +170,8 @@
         "category": "Барные стулья",
         "price": "19 990₽",
         "image": "assets/images/image 12.png",
+        "sell_icon": "",
+        "sell_txt": "",
         "sizes": {
             "width": "34 СМ",
             "depth": "49 СМ",
@@ -161,6 +185,8 @@
         "category": "Диваны",
         "price": "28 490₽",
         "image": "assets/images/image 13.png",
+        "sell_icon": "",
+        "sell_txt": "",
         "sizes": {
             "width": "34 СМ",
             "depth": "49 СМ",
@@ -174,6 +200,8 @@
         "category": "Диваны",
         "price": "28 490₽",
         "image": "assets/images/image 14.png",
+        "sell_icon": "assets/icons/sell-icon.svg",
+        "sell_txt": "-25%",
         "sizes": {
             "width": "34 СМ",
             "depth": "49 СМ",
@@ -187,6 +215,8 @@
         "category": "Диваны",
         "price": "28 490₽",
         "image": "assets/images/image 15.png",
+        "sell_icon": "",
+        "sell_txt": "",
         "sizes": {
             "width": "34 СМ",
             "depth": "49 СМ",
@@ -200,6 +230,8 @@
         "category": "Барные стулья",
         "price": "2 300₽",
         "image": "assets/images/image 16.png",
+        "sell_icon": "assets/icons/sell-icon.svg",
+        "sell_txt": "-25%",
         "sizes": {
             "width": "34 СМ",
             "depth": "49 СМ",

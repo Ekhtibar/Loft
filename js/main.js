@@ -111,7 +111,13 @@ document.addEventListener('DOMContentLoaded', function() {
             // Добавление содержимого карточки (вам нужно адаптировать это под ваши данные)
             productCard.innerHTML = `
                 <div class="product-card__head">
-                    <!-- ... -->
+                    <div class="product-card__head__sell">
+                        <img src="${product.sell_icon}" alt="" class="product-card__sell-icon">
+                        <p class="product-card__head__sell-txt">${product.sell_txt}</p>
+                    </div>
+                    <button class="product-card__add-wishlist">
+                        <img src="assets/icons/wishlist-icon.svg" alt="">
+                    </button>
                 </div>
                 <a href="#" class="product-link">
                     <img src="${product.image}" alt="" class="product-card__img">
