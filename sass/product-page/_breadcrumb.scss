@@ -1,0 +1,26 @@
+ul {
+    list-style: none;
+    margin-top: 30px;
+}
+  
+ul li {
+    display: inline;
+    font-family: $rb-regular;
+    font-size: $xxm-txt;
+    color: #969696;
+}
+  
+ul li+li:before {
+    padding: 8px;
+    color: #575757;
+    content: "/\00a0";
+}
+  
+
+ul li a {
+    color: #969696;
+    text-decoration: none;
+}
+.opened-breadcrumb{
+    color: $black;
+}

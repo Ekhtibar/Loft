@@ -42,7 +42,31 @@ $(window).on('load', function() {
     });
 
     $('.slider-wrap').css('visibility', 'visible');
+
 });
+
+
+    $(document).ready(function(){
+        $('.slider-for').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            fade: true,
+            asNavFor: '.slider-nav'
+        });
+
+        $('.slider-nav').slick({
+            slidesToShow: 3.5,
+            slidesToScroll: 1,
+            asNavFor: '.slider-for',
+            dots: false,
+            centerMode: false,
+            focusOnSelect: true,
+            prevArrow: $('.slider-syncing__left'),
+            nextArrow: $('.slider-syncing__right')
+        });
+    });
+
 
 
 // MENU BTN
@@ -119,11 +143,11 @@ document.addEventListener('DOMContentLoaded', function() {
                         <img src="assets/icons/wishlist-icon.svg" alt="">
                     </button>
                 </div>
-                <a href="#" class="product-link">
+                <a href="./pages/product-page.html" class="product-link">
                     <img src="${product.image}" alt="" class="product-card__img">
                 </a>
                 <div class="product-info">
-                    <a href="#" class="product-link">
+                    <a href="./pages/product-page.html" class="product-link">
                         <h5 class="product-title">${product.name}</h5>
                         <p class="product-category">${product.category}</p>
                         <p class="product-price">${product.price}</p>

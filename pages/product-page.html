@@ -3,15 +3,298 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Flot Мебель</title>
 </head>
 <body>
-    <header class="header"></header>
-    <footer class="footer"></footer>
+    <div class="wrapper">
+        <div class="top-header">
+            <div class="container top-header__container">
+                <nav class="navbar">
+                    <a href="../index.html" class="navabar__item">Главная</a>
+                    <a href="#home" class="navabar__item">О нас</a>
+                    <a href="#home" class="navabar__item">Контакты</a>
+                </nav>
+                <div class="top-header__right-side">
+                    <a href="tel:+89648999119" class="top-header__right-side__phone">
+                        <img src="../assets/icons/white-phone-icon.svg" alt="" class="phone-icon">
+                        +8 (964) 89 99 119
+                    </a>
+                    <a href="#" class="top-header__right-side__delivery">
+                        <img src="../assets/icons/white-delivery-icon.svg" alt="" class="delivery-icon">
+                        Доставка
+                    </a>
+                </div>
+            </div>
+        </div>
+        <header class="header">
+            <div class="container header__container">
+                <div style="display: flex; gap: 25px">
+                    <button class="menu-btn">
+                        <img src="../assets/icons/menu-icon.svg" alt="" class="menu-btnее">
+                    </button>
+                    <a href="#" class="logo">
+                        <img src="../assets/icons/LOGO.svg" alt="" class="logo">
+                    </a>
+                </div>
+                <form role="search" method="get" action="/search" class="search-form">
+                    <button class="search-button">
+                        <img src="../assets/icons/search-icon.svg" alt="search-icon">
+                    </button>
+                    <input type="search" name="search-text" placeholder="Поиск" class="search-input"/>
+                </form>
+                <div class="user-bar">
+                    <a href="tel:+89648999119" class="footer__contacts__phone tablet-delivery">
+                        <img src="../assets/icons/delivery-icon.svg" alt="" class="footer__phone">
+                        Доставка
+                    </a>
+                    <a href="tel:+89648999119" class="footer__contacts__phone tablet-phone">
+                        <img src="../assets/icons/phone-icon.svg" alt="" class="footer__phone">
+                        +8 (964) 89 99 119
+                    </a>
+                    <a href="#wishlist" class="wishlist">
+                        <img src="../assets/icons/wishlist-icon.svg" alt="" class="user-bar__wishlist-icon">
+                    </a>
+                    <a href="#cart" class="cart">
+                        <img src="../assets/icons/bag.svg" alt="" class="user-bar__cart-icon">
+                    </a>
+                    <a href="#user-profil" class="user-profil">
+                        <img src="../assets/icons/profile-icon.svg" alt="" class="user-bar__profil-icon">
+                    </a>
+                </div>
+            </div>
+            <div class="tablet-menu__container">
+                <div class="tablet-menu__container__head">
+                    <p class="tablet-menu__container__head-title">Меню</p>
+                    <div class="tablet-menu__circle">
+                        <img src="../assets/icons/menu-close.svg" alt="" class="tablet-menu__circle-icon">
+                    </div>
+                </div>
+                <div class="tablet-menu__links">
+                    <div class="tablet-menu__item">
+                        <a href="#" class="tablet-menu__link">
+                            <img src="../assets/icons/home-icon.svg" alt="" class="tablet-menu__items-icon">Главная
+                        </a>
+                    </div>
+                    <div class="tablet-menu__item">
+                        <a href="#" class="tablet-menu__link" style="gap: 24px;">
+                            <img src="../assets/icons/about-icon.svg" alt="" class="tablet-menu__items-icon">О нас
+                        </a>
+                    </div>
+                    <div class="tablet-menu__item">
+                        <a href="#" class="tablet-menu__link">
+                            <img src="../assets/icons/at-icon.svg" alt="" class="tablet-menu__items-icon">Контакты
+                        </a>
+                    </div>
+                </div>
+                <p class="tablet-menu__category-title">Категории</p>
+                <div class="tablet-menu__categories">
+                    <div class="tablet-menu__categories-item">
+                        <a href="#" class="tablet-menu__categories-item__link">
+                            <img src="../assets/icons/kitchen-icon.svg" alt="" class="tablet-menu__categories-item__link-icon">Кухня
+                        </a>
+                    </div>
+                    <div class="tablet-menu__categories-item">
+                        <a href="#" class="tablet-menu__categories-item__link">
+                            <img src="../assets/icons/bedroom-icon.svg" alt="" class="tablet-menu__categories-item__link-icon">Спальни
+                        </a>
+                    </div>
+                    <div class="tablet-menu__categories-item">
+                        <a href="#" class="tablet-menu__categories-item__link">
+                            <img src="../assets/icons/livingroom-icon.svg" alt="" class="tablet-menu__categories-item__link-icon">Гостинные
+                        </a>
+                    </div>
+                    <div class="tablet-menu__categories-item">
+                        <a href="#" class="tablet-menu__categories-item__link">
+                            <img src="../assets/icons/closet-icon.svg" alt="" class="tablet-menu__categories-item__link-icon">Прихожие
+                        </a>
+                    </div>
+                    <div class="tablet-menu__categories-item">
+                        <a href="#" class="tablet-menu__categories-item__link">
+                            <img src="../assets/icons/office-icon.svg" alt="" class="tablet-menu__categories-item__link-icon">Офисная мебель
+                        </a>
+                    </div>
+                    <div class="tablet-menu__categories-item">
+                        <a href="#" class="tablet-menu__categories-item__link">
+                            <img src="../assets/icons/childrensroom-icon.svg" alt="" class="tablet-menu__categories-item__link-icon">Детская
+                        </a>
+                    </div>
+                    <div class="tablet-menu__categories-item">
+                        <a href="#" class="tablet-menu__categories-item__link">
+                            <img src="../assets/icons/sell-icon.svg" alt="" class="tablet-menu__categories-item__link-icon">Акция
+                        </a>
+                    </div>
+                    <div class="tablet-menu__categories-item">
+                        <a href="#" class="tablet-menu__categories-item__link">
+                            <img src="../assets/icons/news-icon.svg" alt="" class="tablet-menu__categories-item__link-icon">Новинки
+                        </a>
+                    </div>
+                    <div class="tablet-menu__categories-item">
+                        <a href="#" class="tablet-menu__categories-item__link">
+                            <img src="../assets/icons/mattress.svg" alt="" class="tablet-menu__categories-item__link-icon">Матрасы
+                        </a>
+                    </div>
+                    <div class="tablet-menu__categories-item">
+                        <a href="#" class="tablet-menu__categories-item__link">
+                            <img src="../assets/icons/armchair.svg" alt="" class="tablet-menu__categories-item__link-icon">Мягкая мебель
+                        </a>
+                    </div>
+                    <div class="tablet-menu__categories-item">
+                        <a href="#" class="tablet-menu__categories-item__link">
+                            <img src="../assets/icons/cupboard.svg" alt="" class="tablet-menu__categories-item__link-icon">Шкафы
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <form role="search" method="get" action="/search" class="search-form tablet-search-form">
+                    <button class="search-button">
+                        <img src="../assets/icons/search-icon.svg" alt="search-icon">
+                    </button>
+                    <input type="search" name="search-text" placeholder="Поиск" class="search-input"/>
+                </form>
+            </div>
+        </header>
+        <div class="content">
+            <section class="app-bar app-bar__product-page">
+                <div class="container app-bar__container">
+                    <a href="#" class="app-bar__link app-bar__sells">
+                        <div href="#" class="app-bar__item">
+                            <div class="app-bar__item__img-box">
+                                <img src="../assets/icons/sells-grey.svg" alt="" class="app-bar__item__img">
+                            </div>
+                            <p class="app-bar__item__img__txt">Акция</p>
+                        </div>
+                    </a>
+                    <a href="#" class="app-bar__link app-bar__news">
+                        <div href="#" class="app-bar__item">
+                            <div class="app-bar__item__img-box">
+                                <img src="../assets/icons/news-grey.svg" alt="" class="app-bar__item__img">
+                            </div>
+                            <p class="app-bar__item__img__txt">Новинки</p>
+                        </div>
+                    </a>
+                    <a href="#" class="app-bar__link">
+                        <div href="#" class="app-bar__item">
+                            <div class="app-bar__item__img-box">
+                                <img src="../assets/icons/kitchen-icon.svg" alt="" class="app-bar__item__img">
+                            </div>
+                            <p class="app-bar__item__img__txt">Кухня</p>
+                        </div>
+                    </a>
+                    <a href="#" class="app-bar__link">
+                        <div href="#" class="app-bar__item">
+                            <div class="app-bar__item__img-box">
+                                <img src="../assets/icons/bedroom-icon.svg" alt="" class="app-bar__item__img">
+                            </div>
+                            <p class="app-bar__item__img__txt">Спальни</p>
+                        </div>
+                    </a>
+                    <a href="#" class="app-bar__link">
+                        <div href="#" class="app-bar__item">
+                            <div class="app-bar__item__img-box">
+                                <img src="../assets/icons/closet-icon.svg" alt="" class="app-bar__item__img">
+                            </div>
+                            <p class="app-bar__item__img__txt">Прихожие</p>
+                        </div>
+                    </a>
+                    <a href="#" class="app-bar__link">
+                        <div href="#" class="app-bar__item">
+                            <div class="app-bar__item__img-box">
+                                <img src="../assets/icons/office-icon.svg" alt="" class="app-bar__item__img">
+                            </div>
+                            <p class="app-bar__item__img__txt">Офисная мебель</p>
+                        </div>
+                    </a>
+                    <a href="#" class="app-bar__link">
+                        <div href="#" class="app-bar__item">
+                            <div class="app-bar__item__img-box">
+                                <img src="../assets/icons/childrensroom-icon.svg" alt="" class="app-bar__item__img">
+                            </div>
+                            <p class="app-bar__item__img__txt">Дестская</p>
+                        </div>
+                    </a>
+                    <a href="#" class="sells">Акции</a>
+                    <button class="ect">
+                        <img src="../assets/icons/etc-icon.svg" alt="" class="ect-icon">
+                    </button>
+                    <div class="ect-list">
+                        <a href="#" class="ect-list__item">Новинки</a>
+                        <a href="#" class="ect-list__item">Шкафы</a>
+                        <a href="#" class="ect-list__item">Матрасы</a>
+                        <a href="#" class="ect-list__item">Мягкая мебель</a>
+                    </div>
+                </div>
+            </section>
+            <div class="breadcrumb-section">
+                <div class="container breadcrumb__container">
+                    <ul class="breadcrumb">
+                        <li><a href="../index.html">Главная</a></li>
+                        <li><a href="#">Гостинные</a></li>
+                        <li><a href="#">Мягкая мебель</a></li>
+                        <li class="opened-breadcrumb">Диваны</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="product-page__card">
+                <div class="container product-page__card__container">
+                    <div class="product-page__card__left-side">
+                        <div class="slider-syncing slider-for">
+                            <div class="slider-for__img-box">
+                                <img src="../assets/images/furn-1.jpg" alt="" class="slider-for__img">
+                            </div>
+                            <div class="slider-for__img-box">
+                                <img src="../assets/images/furn-2.jpg" alt="" class="slider-for__img">
+                            </div>
+                            <div class="slider-for__img-box">
+                                <img src="../assets/images/furn-3.jpg" alt="" class="slider-for__img">
+                            </div>
+                            <div class="slider-for__img-box">
+                                <img src="../assets/images/furn-4.jpg" alt="" class="slider-for__img">
+                            </div>
+                        </div>
+                        <div class="slider-syncing slider-nav">
+                            <div class="slider-for__img-box">
+                                <img src="../assets/images/furn-1.jpg" alt="" class="slider-for__img">
+                            </div>
+                            <div class="slider-for__img-box">
+                                <img src="../assets/images/furn-2.jpg" alt="" class="slider-for__img">
+                            </div>
+                            <div class="slider-for__img-box">
+                                <img src="../assets/images/furn-3.jpg" alt="" class="slider-for__img">
+                            </div>
+                            <div class="slider-for__img-box">
+                                <img src="../assets/images/furn-4.jpg" alt="" class="slider-for__img">
+                            </div>
+                        </div>
+                        <button class="slider-syncing__left">
+                            <img src="../assets/icons/black-arrow.svg" alt="" class="slider-syncing__left-img">
+                        </button>
+                        <button class="slider-syncing__right">
+                            <img src="../assets/icons/black-arrow.svg" alt="" class="slider-syncing__left-img">
+                        </button>
+                    </div>   
+                    <div class="product-page__card__left-side">
+                        <h1></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     
-    <script src="./js/jquery-3.7.1.min.js"></script>
-    <script src="./js/main.js"></script>
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/slick.min.js"></script>
+
+    <!-- предотвращаем видимость не нужных фото при загружке для слайдера -->
+    <script>
+        window.addEventListener('load', function () {
+            var images = document.querySelectorAll('.slider-for__img');
+            images.forEach(function (image) {
+                image.style.visibility = 'visible';
+            });
+        });
+    </script>
 </body>
-</html>
+<

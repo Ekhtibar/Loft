@@ -79,6 +79,9 @@
     .childrensroom{
         display: flex;
     }
+    .app-bar__product-page{
+        display: none;
+    }
     .app-bar__item {
         display: flex;
         flex-direction: column;
