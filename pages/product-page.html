@@ -274,8 +274,83 @@
                             <img src="../assets/icons/black-arrow.svg" alt="" class="slider-syncing__left-img">
                         </button>
                     </div>   
-                    <div class="product-page__card__left-side">
-                        <h1></h1>
+                    <div class="product-page__card__right-side">
+                        <div class="review-star">
+                            <span class="black-star">
+                                <img src="../assets/icons/black-review-star.svg" alt="" class="black-star__icon">
+                            </span>
+                            <span class="black-star">
+                                <img src="../assets/icons/black-review-star.svg" alt="" class="black-star__icon">
+                            </span>
+                            <span class="black-star">
+                                <img src="../assets/icons/black-review-star.svg" alt="" class="black-star__icon">
+                            </span>
+                            <span class="black-star">
+                                <img src="../assets/icons/black-review-star.svg" alt="" class="black-star__icon">
+                            </span>
+                            <span class="grey-star">
+                                <img src="../assets/icons/grey-review-star.svg" alt="" class="black-star__icon">
+                            </span>
+                        </div>
+                        <h1 class="product-page__card__title">Динс Velvet Yellow</h1>
+                        <p class="product-page__card__category">Диваны</p>
+                        <div class="price-and-wishlist">
+                            <p class="product-page__card__price">4 690₽</p>
+                            <button class="product-page__card__buy-button">Купить</button>
+                            <div class="product-page__card__add-wishlist">
+                                <img src="../assets/icons/wishlist-icon.svg" alt="" class="product-page__card__add-wishlist__icon">
+                                <p class="product-page__card__add-wishlist__txt">Добавить в желаемое</p>
+                            </div>
+                        </div>
+                        <div class="product-page__card__options">
+                            <div class="color-and-count">
+                                <div class="product-page__card__color">
+                                    <p class="product-page__card__color__txt">Цвет</p>
+                                    <div class="product-page__card__color__dropdown">
+                                        <div class="product-page__card__color__select">
+                                            <div class="color-box" ></div>
+                                            <img src="../assets/icons/dropdown-arrow.svg" alt="" class="product-page__card__color__select__down-icon">
+                                        </div>
+                                        <div class="product-page__card__color__select-down">
+                                            <div class="product-page__card__color__select-down__item" style="background: red;"></div>
+                                            <div class="product-page__card__color__select-down__item" style="background: blue;"></div>
+                                            <div class="product-page__card__color__select-down__item" style="background: grey;"></div>
+                                            <div class="product-page__card__color__select-down__item" style="background: green;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-page__card__count">
+                                    <p class="product-page__card__count__txt">Количество</p>
+                                    <div class="product-page__card__count__dropdown">
+                                        <div class="product-page__card__count__select">
+                                            <input type="text" class="count-number" value="1">
+                                            <img src="../assets/icons/dropdown-arrow.svg" alt="" class="product-page__card__count__select__down-icon">
+                                        </div>
+                                        <div class="product-page__card__count__select-down">
+                                            <div class="product-page__card__count__select-down__item">1</div>
+                                            <div class="product-page__card__count__select-down__item">2</div>
+                                            <div class="product-page__card__count__select-down__item">3</div>
+                                            <div class="product-page__card__count__select-down__item">4</div>
+                                            <div class="product-page__card__count__select-down__item">5</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-page__card__sizes-options">
+                                <p class="product-page__card__sizes__txt">Размер (Д × Ш × В)</p>
+                                <div class="product-page__card__sizes__dropdown">
+                                    <div class="product-page__card__sizes__select">
+                                        <div class="sizes__select__value">218 СМ × 95 СМ × 90 СМ</div>
+                                        <img src="../assets/icons/dropdown-arrow.svg" alt="" class="product-page__card__count__select__down-icon">
+                                    </div>
+                                    <div class="product-page__card__sizes__select-down">
+                                        <div class="product-page__card__sizes__select-down__item">218 СМ × 95 СМ × 90 СМ</div>
+                                        <div class="product-page__card__sizes__select-down__item">218 СМ × 95 СМ × 90 СМ</div>
+                                        <div class="product-page__card__sizes__select-down__item">218 СМ × 95 СМ × 90 СМ</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -287,14 +362,5 @@
     <script src="../js/main.js"></script>
     <script src="../js/slick.min.js"></script>
 
-    <!-- предотвращаем видимость не нужных фото при загружке для слайдера -->
-    <script>
-        window.addEventListener('load', function () {
-            var images = document.querySelectorAll('.slider-for__img');
-            images.forEach(function (image) {
-                image.style.visibility = 'visible';
-            });
-        });
-    </script>
 </body>
-<
+</html>

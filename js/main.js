@@ -56,7 +56,7 @@ $(window).on('load', function() {
         });
 
         $('.slider-nav').slick({
-            slidesToShow: 3.5,
+            slidesToShow: 3,
             slidesToScroll: 1,
             asNavFor: '.slider-for',
             dots: false,
