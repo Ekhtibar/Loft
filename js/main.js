@@ -46,26 +46,26 @@ $(window).on('load', function() {
 });
 
 
-    $(document).ready(function(){
-        $('.slider-for').slick({
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            arrows: false,
-            fade: true,
-            asNavFor: '.slider-nav'
-        });
-
-        $('.slider-nav').slick({
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            asNavFor: '.slider-for',
-            dots: false,
-            centerMode: false,
-            focusOnSelect: true,
-            prevArrow: $('.slider-syncing__left'),
-            nextArrow: $('.slider-syncing__right')
-        });
+$(document).ready(function(){
+    $('.slider-for').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        asNavFor: '.slider-nav'
     });
+
+    $('.slider-nav').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        asNavFor: '.slider-for',
+        dots: false,
+        centerMode: false,
+        focusOnSelect: true,
+        prevArrow: $('.slider-syncing__left'),
+        nextArrow: $('.slider-syncing__right')
+    });
+});
 
 
 
@@ -180,3 +180,5 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
 });
+
+
