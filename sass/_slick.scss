@@ -46,7 +46,6 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-
     &:before,
     &:after {
         content: "";
@@ -87,12 +86,13 @@
 
     .slick-loading & {
         visibility: hidden;
+        overflow: hidden;
     }
 
     .slick-vertical & {
         display: block;
         height: auto;
-        border: 1px solid transparent;
+        overflow: hidden;
     }
 }
 .slick-arrow.slick-hidden {

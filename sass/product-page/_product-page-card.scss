@@ -24,6 +24,7 @@
 }
 .slider-nav__item{
     width: 100%;
+    padding: 10px;
 }
 .slider-nav__item{
     width: 100%;
@@ -163,6 +164,9 @@
     }
 }
 @media (max-width: 480px){
+    .product-card__container{
+        gap: 10px;
+    }
     .pr-p__title{
         font-size: $xl-tt;
     }

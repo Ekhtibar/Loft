@@ -153,11 +153,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 .slick-loading .slick-slide {
   visibility: hidden;
+  overflow: hidden;
 }
 .slick-vertical .slick-slide {
   display: block;
   height: auto;
-  border: 1px solid transparent;
+  overflow: hidden;
 }
 
 .slick-arrow.slick-hidden {
@@ -996,6 +997,7 @@ address {
 
 .slider-nav__item {
   width: 100%;
+  padding: 10px;
 }
 
 .slider-nav__item {
@@ -1147,6 +1149,9 @@ address {
   }
 }
 @media (max-width: 480px) {
+  .product-card__container {
+    gap: 10px;
+  }
   .pr-p__title {
     font-size: 16px;
   }
