@@ -62,8 +62,9 @@ $(document).ready(function(){
         dots: false,
         centerMode: false,
         focusOnSelect: true,
-        prevArrow: $('.slider-syncing__left'),
-        nextArrow: $('.slider-syncing__right')
+        arrows: false
+        // prevArrow: $('.nav-slider__right')
+        // nextArrow: $('.nav-slider__left')
     });
 });
 
