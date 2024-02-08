@@ -1,0 +1,25 @@
+.cart-products{
+    margin-top: 40px;
+}
+.cart-products__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart-products__header__title,
+.cart-products__header__products-count{
+    font-family: $rb-regular;
+    font-size: $xl-tt;
+}
+
+@media (max-width: 480px){
+    .cart-products__header__products-count{
+        font-size: $xxm-txt;
+    }
+}
+
+@media (max-width: 360px){
+    .cart-products__header__title{
+        font-size: $m-tt;
+    }
+}
