@@ -411,7 +411,8 @@ address {
     display: none;
   }
   .footer {
-    padding: 55px 0px 35px 0px;
+    padding: 35px 0px 35px 0px;
+    margin: 0px;
   }
   .footer__left-side {
     display: none;
@@ -1340,6 +1341,21 @@ address {
 
 .remove-card:hover {
   background: #ff3232;
+}
+
+.cart-simmilar-products__container {
+  padding: 0px 0px 0px 25px;
+}
+
+.cart-simmilar-products {
+  display: flex;
+  gap: 25px;
+  overflow: scroll;
+  padding: 0px 25px 0px 0px;
+}
+
+.cart-simmilar-products__product-card {
+  min-width: 210px;
 }
 
 @media (max-width: 960px) {
