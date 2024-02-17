@@ -1350,7 +1350,6 @@ address {
 .cart-simmilar-products {
   display: flex;
   gap: 25px;
-  overflow: scroll;
   padding: 0px 25px 0px 0px;
 }
 
@@ -1362,6 +1361,9 @@ address {
   .cart-products__added-product-card__info__bottom {
     flex-direction: column;
     align-items: start;
+  }
+  .cart-simmilar-products {
+    overflow-x: scroll;
   }
 }
 @media (max-width: 648px) {
@@ -1428,5 +1430,135 @@ address {
   }
   .cart-products__added-product-card__info__bottom__item__number {
     margin: 0px;
+  }
+}
+.about-us-hero__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.about-us-hero {
+  margin-top: 20px;
+}
+
+.about-us-hero__left-side {
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-us-hero__left-side__top__line {
+  width: 260px;
+  height: 1px;
+  background: #245462;
+  margin-top: 6px;
+}
+
+.about-us-hero__left-side__top__title {
+  font-family: "Roboto Regular", sans-serif;
+  font-size: 12px;
+  color: #245462;
+}
+
+.about-us-hero__left-side__title {
+  font-family: "Roboto Regular", sans-serif;
+  font-size: 24px;
+  color: #414141;
+  margin-top: 16px;
+}
+
+.about-us-hero__left-side__description {
+  font-family: "Roboto Regular", sans-serif;
+  font-size: 14px;
+  margin-top: 15px;
+  color: #686868;
+}
+
+.about-us-hero__right-side {
+  max-width: 100%;
+}
+
+.about-us-img {
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .about-us-hero__left-side {
+    width: 100%;
+  }
+  .about-us-hero__container {
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .about-us-hero__left-side__top__title {
+    font-size: 10px;
+  }
+  .about-us-hero__left-side__title {
+    font-size: 18px;
+  }
+  .about-us-hero__left-side__description {
+    font-size: 12px;
+  }
+}
+.buy-with-profit {
+  margin-top: 100px;
+}
+
+.buy-with-profit__title {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto Regular", sans-serif;
+  font-size: 24px;
+}
+
+.buy-with-profit__advantages {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 90px;
+  gap: 64px;
+}
+
+.buy-with-profit__advantages__box {
+  display: flex;
+  align-items: start;
+  gap: 30px;
+}
+
+.buy-with-profit__advantages__box__right-side__title {
+  font-family: "Roboto Regular", sans-serif;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.buy-with-profit__advantages__box__right-side__description {
+  font-family: "Roboto Regular", sans-serif;
+  font-size: 14px;
+  color: #686868;
+}
+
+@media (max-width: 768px) {
+  .buy-with-profit__advantages {
+    margin-top: 50px;
+  }
+  .buy-with-profit {
+    margin-top: 35px;
+  }
+  .buy-with-profit__title {
+    font-size: 18px;
+  }
+  .buy-with-profit__advantages {
+    grid-template-columns: 1fr;
+  }
+  .buy-with-profit__advantages__box {
+    gap: 15px;
+  }
+  .buy-with-profit__advantages__box__img {
+    width: 15%;
   }
 }/*# sourceMappingURL=style.css.map */

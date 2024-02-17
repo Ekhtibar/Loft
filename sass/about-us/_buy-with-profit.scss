@@ -1,0 +1,51 @@
+.buy-with-profit{
+    margin-top: 100px;
+}
+.buy-with-profit__title{
+    display: flex;
+    justify-content: center;
+    font-family: $rb-regular;
+    font-size: 24px;
+}
+.buy-with-profit__advantages{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 90px;
+    gap: 64px;
+}
+.buy-with-profit__advantages__box{
+    display: flex;
+    align-items: start;
+    gap: 30px;
+}
+.buy-with-profit__advantages__box__right-side__title{
+    font-family: $rb-regular;
+    font-size: $l-tt;
+    margin-bottom: 10px;
+}
+.buy-with-profit__advantages__box__right-side__description{
+    font-family: $rb-regular;
+    font-size: $m-tt;
+    color: $white-grey-txt;
+}
+
+@media (max-width: 768px){
+    .buy-with-profit__advantages{
+        margin-top: 50px;
+    }
+    .buy-with-profit{
+        margin-top: 35px;
+    }
+    .buy-with-profit__title{
+        font-size: $l-tt;
+    }
+    .buy-with-profit__advantages{
+        grid-template-columns: 1fr;
+    }
+    .buy-with-profit__advantages__box{
+        gap: 15px;
+    }
+    .buy-with-profit__advantages__box__img{
+        width: 15%;
+    }
+}

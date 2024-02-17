@@ -127,7 +127,6 @@
 .cart-simmilar-products{
     display: flex;
     gap: 25px;
-    overflow: scroll;
     padding: 0px 25px 0px 0px;
 }
 .cart-simmilar-products__product-card{
@@ -146,6 +145,9 @@
     .cart-products__added-product-card__info__bottom {
         flex-direction: column;
         align-items: start;
+    }
+    .cart-simmilar-products{
+        overflow-x: scroll;
     }
 }
 
