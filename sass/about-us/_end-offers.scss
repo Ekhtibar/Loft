@@ -1,0 +1,21 @@
+.end-offers-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 65px;
+    margin-top: 75px;
+}
+.end-offer__box{
+    max-width: 280px;
+    display: flex;
+    gap: 20px;
+}
+.end-offer__box__right-side__txt{
+    font-family: $rb-regular;
+    font-size: $m-tt;
+    line-height: 1.5;
+}
+.end-offer__box__right-side__txt__title{
+    font-family: $rb-medium;
+    font-size: $m-tt;
+    color: $dark-grey-txt;
+}

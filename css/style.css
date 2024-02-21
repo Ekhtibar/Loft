@@ -1357,6 +1357,30 @@ address {
   min-width: 210px;
 }
 
+.checkout {
+  margin-top: 40px;
+}
+
+.checkout-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  align-items: center;
+  gap: 25px;
+}
+
+.checkout-container__right-side {
+  padding: 13px 50px;
+  border: none;
+  background: #245462;
+  color: #fff;
+}
+
+.checout-value {
+  font-family: "Roboto Medium", sans-serif;
+  font-size: 16px;
+}
+
 @media (max-width: 960px) {
   .cart-products__added-product-card__info__bottom {
     flex-direction: column;
@@ -1430,6 +1454,13 @@ address {
   }
   .cart-products__added-product-card__info__bottom__item__number {
     margin: 0px;
+  }
+  .checkout-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
   }
 }
 .about-us-hero__container {
@@ -1608,4 +1639,28 @@ address {
   .offer-box__title {
     font-size: 14px;
   }
+}
+.end-offers-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 65px;
+  margin-top: 75px;
+}
+
+.end-offer__box {
+  max-width: 280px;
+  display: flex;
+  gap: 20px;
+}
+
+.end-offer__box__right-side__txt {
+  font-family: "Roboto Regular", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.end-offer__box__right-side__txt__title {
+  font-family: "Roboto Medium", sans-serif;
+  font-size: 14px;
+  color: #414141;
 }/*# sourceMappingURL=style.css.map */

@@ -134,10 +134,26 @@
 }
 
 
-
-
-
-
+.checkout{
+    margin-top: 40px;
+}
+.checkout-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+    gap: 25px;
+}
+.checkout-container__right-side{
+    padding: 13px 50px;
+    border: none;
+    background: $blue;
+    color: $white;
+}
+.checout-value{
+    font-family: $rb-medium;
+    font-size: $xl-tt;
+}
 
 
 
@@ -216,5 +232,12 @@
     }
     .cart-products__added-product-card__info__bottom__item__number{
         margin: 0px;
+    }
+    .checkout-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
     }
 }
