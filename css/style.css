@@ -1663,4 +1663,11 @@ address {
   font-family: "Roboto Medium", sans-serif;
   font-size: 14px;
   color: #414141;
+}
+
+@media (max-width: 1024px) {
+  .end-offers-container {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }/*# sourceMappingURL=style.css.map */

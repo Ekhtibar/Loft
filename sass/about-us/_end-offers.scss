@@ -19,3 +19,11 @@
     font-size: $m-tt;
     color: $dark-grey-txt;
 }
+
+
+@media (max-width: 1024px){
+    .end-offers-container{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
